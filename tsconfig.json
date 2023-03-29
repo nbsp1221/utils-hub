@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "es6",
+  },
+  "include": [
+    "src/**/*",
+    "jest-setup.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

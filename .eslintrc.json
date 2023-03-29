@@ -1,0 +1,5 @@
+{
+  "root": true,
+  "extends": "eslint-config-retn0",
+  "ignorePatterns": ["dist"]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "utils-hub",
+  "version": "0.0.1",
+  "description": "🛠️ A collection of useful utility functions for JavaScript and TypeScript",
+  "keywords": [
+    "utilities"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Naki",
+    "email": "nbsp1221@gmail.com"
+  },
+  "homepage": "https://github.com/nbsp1221/utils-hub/#readme",
+  "bugs": {
+    "url": "https://github.com/nbsp1221/utils-hub/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbsp1221/utils-hub.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    "require": {
+      "react": "./dist/cjs/react/index.cjs",
+      "string": "./dist/cjs/string/index.cjs"
+    },
+    "import": {
+      "react": "./dist/esm/react/index.js",
+      "string": "./dist/esm/string/index.js"
+    },
+    "types": {
+      "require": {
+        "react": "./dist/cjs/react/index.d.cts",
+        "string": "./dist/cjs/string/index.d.cts"
+      },
+      "import": {
+        "react": "./dist/esm/react/index.d.ts",
+        "string": "./dist/esm/string/index.d.ts"
+      }
+    }
+  },
+  "packageManager": "yarn@3.5.0",
+  "scripts": {
+    "build": "yarn clean && rollup -c",
+    "clean": "rm -rf dist",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "14.0.0",
+    "@types/jest": "29.5.0",
+    "@types/react": "18.0.30",
+    "@typescript-eslint/eslint-plugin": "5.57.0",
+    "@typescript-eslint/parser": "5.57.0",
+    "eslint": "8.36.0",
+    "eslint-config-retn0": "1.5.2",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-react": "7.32.2",
+    "jest": "29.5.0",
+    "jest-environment-jsdom": "29.5.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "rollup": "3.20.2",
+    "rollup-plugin-ts": "3.2.0",
+    "ts-jest": "29.0.5",
+    "typescript": "4.9.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
