@@ -22,26 +22,9 @@
     "dist"
   ],
   "type": "module",
-  "exports": {
-    "require": {
-      "react": "./dist/cjs/react/index.cjs",
-      "string": "./dist/cjs/string/index.cjs"
-    },
-    "import": {
-      "react": "./dist/esm/react/index.js",
-      "string": "./dist/esm/string/index.js"
-    },
-    "types": {
-      "require": {
-        "react": "./dist/cjs/react/index.d.cts",
-        "string": "./dist/cjs/string/index.d.cts"
-      },
-      "import": {
-        "react": "./dist/esm/react/index.d.ts",
-        "string": "./dist/esm/string/index.d.ts"
-      }
-    }
-  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
   "packageManager": "yarn@3.5.0",
   "scripts": {
     "build": "yarn clean && rollup -c",

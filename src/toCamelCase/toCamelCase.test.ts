@@ -1,6 +1,13 @@
 import { toCamelCase } from './toCamelCase';
 
 describe('toCamelCase', () => {
+  test('toCamelCase should handle empty string', () => {
+    const value = '';
+    const expected = '';
+
+    expect(toCamelCase(value)).toBe(expected);
+  });
+
   const testCases = [
     ['lowercase', 'lowercase'],
     ['Uppercase', 'uppercase'],

@@ -3,8 +3,8 @@ import { nl2br } from './nl2br';
 
 describe('nl2br', () => {
   test('nl2br should replace newlines with <br />', () => {
-    const text = 'This is a\nmultiline\ntext.';
-    const expected = 'This is a<br>multiline<br>text.';
+    const text = 'This is a\nmulti line\ntext.';
+    const expected = 'This is a<br>multi line<br>text.';
 
     expect(render(nl2br(text)).container.innerHTML).toBe(expected);
   });
