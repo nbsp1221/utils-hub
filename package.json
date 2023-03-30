@@ -1,5 +1,5 @@
 {
-  "name": "utils-hub",
+  "name": "utilsmate",
   "version": "0.0.1",
   "description": "🛠️ A collection of useful utility functions for JavaScript and TypeScript",
   "keywords": [
@@ -10,13 +10,13 @@
     "name": "Naki",
     "email": "nbsp1221@gmail.com"
   },
-  "homepage": "https://github.com/nbsp1221/utils-hub/#readme",
+  "homepage": "https://github.com/nbsp1221/utilsmate/#readme",
   "bugs": {
-    "url": "https://github.com/nbsp1221/utils-hub/issues"
+    "url": "https://github.com/nbsp1221/utilsmate/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nbsp1221/utils-hub.git"
+    "url": "git+https://github.com/nbsp1221/utilsmate.git"
   },
   "files": [
     "dist"

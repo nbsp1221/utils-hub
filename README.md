@@ -1,4 +1,4 @@
-# utils-hub
+# utilsmate
 
 A collection of useful utility functions for JavaScript and TypeScript.
 
@@ -6,8 +6,8 @@ A collection of useful utility functions for JavaScript and TypeScript.
 
 ```shell
 # npm
-npm install utils-hub
+npm install utilsmate
 
 # yarn
-yarn add utils-hub
+yarn add utilsmate
 ```
