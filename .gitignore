@@ -8,6 +8,9 @@
 node_modules
 
 # Distribution
-./number
-./react
-./string
+number
+react
+string
+!src/number
+!src/react
+!src/string
