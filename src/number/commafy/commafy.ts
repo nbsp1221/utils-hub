@@ -1,4 +1,4 @@
-export function addCommas(value: number): string {
+export function commafy(value: number): string {
   if (!Number.isFinite(value)) {
     return '';
   }
