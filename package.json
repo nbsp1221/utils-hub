@@ -25,17 +25,17 @@
   ],
   "type": "module",
   "exports": {
-    "number": {
+    "./number": {
       "import": "./number/index.js",
       "require": "./number/index.cjs",
       "types": "./number/index.d.ts"
     },
-    "react": {
+    "./react": {
       "import": "./react/index.js",
       "require": "./react/index.cjs",
       "types": "./react/index.d.ts"
     },
-    "string": {
+    "./string": {
       "import": "./string/index.js",
       "require": "./string/index.cjs",
       "types": "./string/index.d.ts"
